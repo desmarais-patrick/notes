@@ -6,7 +6,7 @@ Personal project to organize notes into groups.
 <img src="assets/notes-app-mockup-1.png" title="Interface sketch" width="270">
 <img src="assets/notes-app-architecture.png" title="App architecture" width="270">
 
-<!-- TODO Insert notice about wiki here after created. -->
+See [Wiki](https://github.com/desmarais-patrick/notes/wiki) for documentation.
 
 ## Sub-Projects
 
