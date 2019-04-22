@@ -2,7 +2,10 @@
 
 Personal project to organize notes into groups.
 
-<!-- TODO Insert images here after successful Git LFS. -->
+<img src="assets/notes-app-splash.png" title="Splash and logo" width="270"><!-- TODO Replace with GIF-animated preview of the app after release. -->
+<img src="assets/notes-app-mockup-1.png" title="Interface sketch" width="270">
+<img src="assets/notes-app-architecture.png" title="App architecture" width="270">
+
 <!-- TODO Insert notice about wiki here after created. -->
 
 ## Sub-Projects
