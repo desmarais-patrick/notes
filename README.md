@@ -2,9 +2,9 @@
 
 Personal project to organize notes into groups.
 
-<img src="assets/notes-app-splash.png" title="Splash and logo" width="270"><!-- TODO Replace with GIF-animated preview of the app after release. -->
-<img src="assets/notes-app-mockup-1.png" title="Interface sketch" width="270">
-<img src="assets/notes-app-architecture.png" title="App architecture" width="270">
+<img src="assets/exports/notes-app-splash.png" title="Splash and logo" width="270"><!-- TODO Replace with GIF-animated preview of the app after release. -->
+<img src="assets/exports/notes-app-mockup-1.png" title="Interface sketch" width="270">
+<img src="assets/exports/notes-app-architecture.png" title="App architecture" width="270">
 
 See [Wiki](https://github.com/desmarais-patrick/notes/wiki) for documentation.
 
