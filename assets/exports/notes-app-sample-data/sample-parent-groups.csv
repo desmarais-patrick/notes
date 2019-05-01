@@ -1,0 +1,5 @@
+id,group,child-groups,color
+PG1,Type,G1-G11,Black
+PG2,Time,G12-G14,Grey
+PG3,Topic,G15-G29,Blue
+PG4,Activity,G30-G33,Red

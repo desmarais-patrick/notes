@@ -1,0 +1,34 @@
+id,group
+G1,Idea
+G2,Thought
+G3,Task (reminder)
+G4,Recurrent task
+G5,Routine
+G6,Project
+G7,Goal
+G8,Value
+G9,"Reference (link, text, etc.)"
+G10,List
+G11,Checklist
+G12,Short-term
+G13,Medium-term
+G14,Long-term
+G15,Art
+G16,Admin
+G17,Design
+G18,Entertainment
+G19,Family
+G20,Food
+G21,Health
+G22,Hobby
+G23,Home
+G24,Programming
+G25,Psychology
+G26,Quote
+G27,Travel
+G28,Work
+G29,Workout
+G30,Read
+G31,Watch
+G32,Listen
+G33,Plan
