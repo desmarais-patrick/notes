@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="164 -139 752 352" width="752" height="352">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="10" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2019-05-14 15:13:09 +0000</dc:date>
+  </metadata>
+  <g id="client-app" stroke-dasharray="none" fill-opacity="1" fill="none" stroke="none" stroke-opacity="1">
+    <title>client-app</title>
+    <g id="client-app: Layer 1">
+      <title>Layer 1</title>
+      <g id="Line_47">
+        <line x1="265" y1="-113" x2="315" y2="-113" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_46">
+        <line x1="265" y1="-113" x2="565" y2="-113" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_45">
+        <line x1="265" y1="-113" x2="440" y2="-113" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_44">
+        <line x1="265" y1="-38" x2="315" y2="-38" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_43">
+        <line x1="265" y1="-38" x2="440" y2="-38" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_37">
+        <line x1="265" y1="37" x2="440" y2="37" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_36">
+        <line x1="265" y1="37" x2="315" y2="37" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_35">
+        <line x1="265" y1="37" x2="565" y2="37" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_29">
+        <line x1="265" y1="112" x2="565" y2="112" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_28">
+        <line x1="265" y1="112" x2="440" y2="112" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_27">
+        <line x1="265" y1="112" x2="315" y2="112" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_20">
+        <line x1="265" y1="187" x2="440" y2="187" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_19">
+        <line x1="265" y1="187" x2="690" y2="187" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_18">
+        <line x1="265" y1="187" x2="565" y2="187" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_17">
+        <line x1="265" y1="187" x2="815" y2="187" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_16">
+        <line x1="265" y1="187" x2="315" y2="187" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_2">
+        <rect x="165" y="-138" width="100" height="50" fill="#dc2f39"/>
+        <rect x="165" y="-138" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(170 -120.5)" fill="#fafafa">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="#fafafa" x="33.996" y="11">App</tspan>
+        </text>
+      </g>
+      <g id="Graphic_39">
+        <rect x="315" y="-138" width="100" height="50" fill="#fafafa"/>
+        <rect x="315" y="-138" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(320 -119.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="14.815" y="10">Configuration</tspan>
+        </text>
+      </g>
+      <g id="Graphic_40">
+        <rect x="440" y="-138" width="100" height="50" fill="#fafafa"/>
+        <rect x="440" y="-138" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(445 -119.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="8.145" y="10">ResourceLoader</tspan>
+        </text>
+      </g>
+      <g id="Graphic_42">
+        <rect x="565" y="-138" width="100" height="50" fill="#fafafa"/>
+        <rect x="565" y="-138" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(570 -125.28)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="13.14" y="10">Instantiation &amp; </tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="18.99" y="22.28">initialization</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="165" y="-63" width="100" height="50" fill="#dc2f39"/>
+        <rect x="165" y="-63" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(170 -45.5)" fill="#fafafa">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="#fafafa" x="2.538" y="11">Communication</tspan>
+        </text>
+      </g>
+      <g id="Graphic_38">
+        <rect x="315" y="-63" width="100" height="50" fill="#fafafa"/>
+        <rect x="315" y="-63" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(320 -44.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="10.645" y="10">RequestBuilder</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <rect x="440" y="-63" width="100" height="50" fill="#fafafa"/>
+        <rect x="440" y="-63" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(445 -44.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="15.56" y="10">Authorization</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="165" y="12" width="100" height="50" fill="#dc2f39"/>
+        <rect x="165" y="12" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(170 29.5)" fill="#fafafa">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="#fafafa" x="28.218" y="11">Model</tspan>
+        </text>
+      </g>
+      <g id="Graphic_30">
+        <rect x="315" y="12" width="100" height="50" fill="#fafafa"/>
+        <rect x="315" y="12" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(320 30.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="12.685" y="10">Business logic</tspan>
+        </text>
+      </g>
+      <g id="Graphic_31">
+        <rect x="440" y="12" width="100" height="50" fill="#fafafa"/>
+        <rect x="440" y="12" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(445 30.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="28.15" y="10">Parsing</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <rect x="565" y="12" width="100" height="50" fill="#fafafa"/>
+        <rect x="565" y="12" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(570 30.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="30.555" y="10">Cache</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <rect x="165" y="87" width="100" height="50" fill="#dc2f39"/>
+        <rect x="165" y="87" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(170 104.5)" fill="#fafafa">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="#fafafa" x="18.78" y="11">Controller</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <rect x="315" y="87" width="100" height="50" fill="#fafafa"/>
+        <rect x="315" y="87" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(320 105.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="6.665" y="10">ModelControllers</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <rect x="440" y="87" width="100" height="50" fill="#fafafa"/>
+        <rect x="440" y="87" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(445 105.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="10.1" y="10">ViewControllers</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <rect x="565" y="87" width="100" height="50" fill="#fafafa"/>
+        <rect x="565" y="87" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(570 99.72)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="4.15" y="10">Page &amp; Command </tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="30" y="22.28">Router</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <rect x="165" y="162" width="100" height="50" fill="#dc2f39"/>
+        <rect x="165" y="162" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(170 179.5)" fill="#fafafa">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="#fafafa" x="32.34" y="11">View</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <rect x="315" y="162" width="100" height="50" fill="#fafafa"/>
+        <rect x="315" y="162" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(320 174.72)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="25.27" y="10">Layout &amp; </tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="16.1" y="22.28">Components</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21">
+        <rect x="440" y="162" width="100" height="50" fill="#fafafa"/>
+        <rect x="440" y="162" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(445 180.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="13.34" y="10">View Lifecycle</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <rect x="565" y="162" width="100" height="50" fill="#fafafa"/>
+        <rect x="565" y="162" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(570 180.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="12.31" y="10">Page structure</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <rect x="690" y="162" width="100" height="50" fill="#fafafa"/>
+        <rect x="690" y="162" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(695 180.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="29.815" y="10">Styling</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <rect x="815" y="162" width="100" height="50" fill="#fafafa"/>
+        <rect x="815" y="162" width="100" height="50" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(820 180.5)" fill="#333">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#333" x="20.085" y="10">Animations</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="-55 -161 638 604" width="638" height="604">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="10" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="9" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2019-05-14 15:13:09 +0000</dc:date>
+  </metadata>
+  <g id="systems-overview" stroke-dasharray="none" fill-opacity="1" fill="none" stroke="none" stroke-opacity="1">
+    <title>systems-overview</title>
+    <g id="systems-overview: Layer 1">
+      <title>Layer 1</title>
+      <g id="Line_11">
+        <line x1="263.5" y1="345.291" x2="263.5" y2="194.63848" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_10">
+        <line x1="296.52895" y1="126.92948" x2="350.97105" y2="71.12661" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_9">
+        <line x1="213.5" y1="131.6344" x2="101.5" y2="66.33931" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_8">
+        <line x1="384" y1="3.4176116" x2="384" y2="-49.791" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_20">
+        <path d="M -54.5 -160.5 L 582 -160.5 L 582 234.5 L -54.5 234.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+        <text transform="translate(-44.5 209.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Server-side</tspan>
+        </text>
+      </g>
+      <g id="Graphic_24">
+        <path d="M -54.5 315.8955 L 582 315.8955 L 582 442.3955 L -54.5 442.3955 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+        <text transform="translate(-44.5 417.3955)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Client-side</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="213.5" y="345.291" width="100" height="67.709" fill="white"/>
+        <rect x="213.5" y="345.291" width="100" height="67.709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(218.5 371.6455)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="15.894" y="11">Web Client</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <rect x="213.5" y="126.92948" width="100" height="67.709" fill="white"/>
+        <rect x="213.5" y="126.92948" width="100" height="67.709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(218.5 153.28398)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="27.672" y="11">Server</tspan>
+        </text>
+      </g>
+      <g id="Graphic_2">
+        <rect x="1.5" y="3.335223" width="100" height="67.709" fill="white"/>
+        <rect x="1.5" y="3.335223" width="100" height="67.709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(6.5 22.853724)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="18.558" y="11">Static File </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="27.672" y="25.336">Server</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <rect x="334" y="3.4176116" width="100" height="67.709" fill="white"/>
+        <rect x="334" y="3.4176116" width="100" height="67.709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(339 29.77211)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="16.674" y="11">API Server</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="334" y="-117.5" width="100" height="67.709" fill="white"/>
+        <rect x="334" y="-117.5" width="100" height="67.709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(339 -91.1455)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="19.44" y="11">Database</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <rect x="179.78" y="263.50794" width="167.44" height="23" fill="white"/>
+        <text transform="translate(184.78 268.50794)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="0" y="10">requests to/receives response from</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <rect x="291.1646" y="89.9833" width="60.38" height="23" fill="white"/>
+        <text transform="translate(296.1646 94.9833)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="50803806e-20" y="10">redirects to</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <rect x="327.79" y="-32.112786" width="112.42" height="23" fill="white"/>
+        <text transform="translate(332.79 -27.112786)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="0" y="10">stores in/retrieves from</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <rect x="129.10672" y="88.53433" width="60.38" height="23" fill="white"/>
+        <text transform="translate(134.10672 93.53433)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="50803806e-20" y="10">redirects to</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <clipPath id="clip_path">
+          <rect x="0" y="0" width="127" height="67.709"/>
+        </clipPath>
+        <text clip-path="url(#clip_path)" transform="translate(107 32.370613)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="9">- Web files: HTML, CSS, JS</tspan>
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="20.252">- Images, vector graphics</tspan>
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="31.503998">- Client files</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <clipPath id="clip_path_2">
+          <rect x="0" y="0" width="127" height="67.709"/>
+        </clipPath>
+        <text clip-path="url(#clip_path_2)" transform="translate(440 43.62261)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="9">- Logic</tspan>
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="20.252">- Data access</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <clipPath id="clip_path_3">
+          <rect x="0" y="0" width="127" height="67.709"/>
+        </clipPath>
+        <text clip-path="url(#clip_path_3)" transform="translate(440 -66.043)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="9">- Store data</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <clipPath id="clip_path_4">
+          <rect x="0" y="14210855e-21" width="127" height="67.709"/>
+        </clipPath>
+        <text clip-path="url(#clip_path_4)" transform="translate(319.21 167.13448)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="9">- Redirection logic</tspan>
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="20.252">- SSL certificate</tspan>
+        </text>
+      </g>
+      <g id="Graphic_29">
+        <clipPath id="clip_path_5">
+          <rect x="0" y="0" width="127" height="67.709"/>
+        </clipPath>
+        <text clip-path="url(#clip_path_5)" transform="translate(319.5 385.496)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="9">- User interface</tspan>
+          <tspan font-family="Helvetica Neue" font-size="9" font-weight="400" fill="black" x="0" y="20.252">- Mobile &amp; desktop</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
