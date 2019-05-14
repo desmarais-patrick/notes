@@ -1,0 +1,187 @@
+swagger: "2.0"
+info:
+  description: "This is the API for the Notes app.  You can find out more about the project by visiting Github at [desmarais-patrick/notes](https://github.com/desmarais-patrick/notes/)."
+  version: "1.0.0"
+  title: "Notes"
+  contact:
+    email: "patrick.desm@gmail.com"
+  license:
+    name: "MIT"
+    url: "http://github.com/desmarais-patrick/notes/LICENSE"
+host: "patrickdesmarais6.com"
+basePath: "/notes/api/v1"
+tags:
+- name: "notes"
+  description: "Operations to retrieve, create, update and delete notes."
+schemes:
+- "https"
+- "http"
+paths:
+  /notes:
+    get:
+      tags:
+      - "notes"
+      summary: "Retrieves collection of notes"
+      description: "Ordering is by most recently added first."
+      produces:
+      - "application/json"
+      parameters:
+      - name: "start-index"
+        in: "query"
+        description: "Index to start retrieving notes from. Ex. `11`."
+        default: 0
+        type: "integer"
+      - name: "number-of-resources"
+        in: "query"
+        description: "Number of resources to include in the response. Ex. `10`. A value of `-1` retrieves all resources."
+        default: 10
+        type: "integer"
+      - name: "around-object-id"
+        in: "query"
+        description: "Identifier of the object to use as reference to return surrounding objects. Ex. `\"1234\"`."
+        type: "string"
+        default: null
+      responses:
+        200:
+          description: "Successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Note"
+        400:
+          description: "Invalid parameter value"
+    post:
+      tags:
+      - "notes"
+      summary: "Creates a new note and adds to collection."
+      description: ""
+      operationId: "createNote"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Note object to be added to the collection"
+        required: true
+        schema:
+          $ref: "#/definitions/NewNote"
+      responses:
+        405:
+          description: "Invalid input"
+  /notes/{id}:
+    get:
+      tags:
+      - "notes"
+      summary: "Get note by ID"
+      description: ""
+      operationId: "getNoteById"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "The ID that needs to be fetched. Ex. `1234`."
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "Successful operation"
+          schema:
+            $ref: "#/definitions/Note"
+        400:
+          description: "Invalid id supplied"
+        404:
+          description: "Note not found"
+    put:
+      tags:
+      - "notes"
+      summary: "Updates note"
+      description: ""
+      operationId: "updateNote"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "The ID of the note to update"
+        required: true
+        type: "integer"
+      - in: "body"
+        name: "body"
+        description: "Updated note object"
+        required: true
+        schema:
+          $ref: "#/definitions/UpdateNote"
+      responses:
+        400:
+          description: "Invalid note supplied"
+        404:
+          description: "Note not found"
+    delete:
+      tags:
+      - "notes"
+      summary: "Delete note"
+      description: ""
+      operationId: "deleteNote"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "The ID of the note to delete"
+        required: true
+        type: "integer"
+      responses:
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Note not found"
+definitions:
+  Note:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      text:
+        type: "string"
+      date:
+        type: "string"
+        format: "date-time"
+    required:
+      - "text"
+    xml:
+      name: "Note"
+  UpdateNote:
+    type: "object"
+    properties:
+      text:
+        type: "string"
+    required:
+      - "text"
+    xml:
+      name: "Note"
+  NewNote:
+    type: "object"
+    properties:
+      text:
+        type: "string"
+    required:
+      - "text"
+    xml:
+      name: "Note"
+  ApiResponse:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      type:
+        type: "string"
+      message:
+        type: "string"
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"
