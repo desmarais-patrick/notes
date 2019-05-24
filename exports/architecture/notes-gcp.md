@@ -18,6 +18,8 @@ Tools and APIs:
  * Google Identity Platform
  * StackDriver Trace
  * Cloud Pub/Sub
+ * Cloud Source Repositories
+ * Cloud Endpoints
 
 
 ## Billing and Budgets
@@ -32,10 +34,14 @@ However, it doesn't stop the service! 😬
  - How can we have continuous integration with Github (or Google's code repository)?
 
  - Should the client app be stored on Google Storage or CDN solution?
-   - What is a CND?
+   - What is a CDN?
    - What are caching considerations?
    - Linked articles: [Understanding Data and File Storage](https://cloud.google.com/appengine/docs/standard/nodejs/using-third-party-databases), [Serving Static Files](https://cloud.google.com/appengine/docs/standard/nodejs/serving-static-files)
 
+ - When should one move to *Compute Engine* or *Kubernetes*?
+   - Are scaling and load-balancing required?
+   - Dockerization seems to save a lot of Bash scripts.
+   - Is clusterization required?
 
 ## Further Study Considerations
 
@@ -66,3 +72,12 @@ Workers can be created to handle topics and execute asynchronous tasks.
 Workers can implement an `health/` endpoint to see how they are doing.
 
 This tool could help process notes, and eventually augment them with attachments.
+
+*Cloud Source Repositories*
+
+It stores source code. It seems similar to a regular Git server repository.
+
+*Cloud Endpoints*
+
+API management software to secure, monitor, analyze, and set quotas.
+It supports gRPC, OpenAPI and frameworks in AppEngine standard environment.
