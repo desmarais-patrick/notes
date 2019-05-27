@@ -45,7 +45,9 @@ An alternative is to use *Cloud Pub/Sub*.
 Soft routing is applied to the default service when no custom domain is set.
 `dispatch.yaml` tells how to send requests with custom domain, or just to a specific version (see [Versions page](https://console.cloud.google.com/appengine/versions?project=_&serviceId=default&_ga=2.228443805.-1864672417.1555958817&_gac=1.254420602.1557936691.CjwKCAjw8e7mBRBsEiwAPVxxiJoS9pnv8hPJyGsaagApuhx46NxOQeLOmtGuYDd7ljCIrszvJHKdhRoCfvsQAvD_BwE) in Google Cloud Console).
 
-Dispath file is deployed separately.
+Dispatch file is deployed separately.
+
+More information about [mapping custom domains](https://cloud.google.com/appengine/docs/standard/python/mapping-custom-domains).
 
 
 ## Runtime
@@ -56,6 +58,7 @@ While many web services can be deployed from multiple app.yaml file names, Node.
 runtime: nodejs10
 ```
 
+More information about [runtime settings](https://cloud.google.com/appengine/docs/standard/nodejs/configuring-your-app-with-app-yaml) and [difference between flexible and standard environment](https://cloud.google.com/appengine/docs/flexible/go/flexible-for-standard-users).
 
 ## Dependencies
 
@@ -67,3 +70,27 @@ Packages are cached to avoid re-installs, but this cache can be avoided when dep
 ## Deployment
 
 To deploy an app using the Admin API, one must upload the source code to a Cloud Storage bucket.
+
+
+## References
+
+### Getting Started
+
+ * [Hello-world](https://cloud.google.com/nodejs/getting-started/hello-world)
+ * Node.js Bookshelf App
+   * [Intro & setup](https://cloud.google.com/nodejs/getting-started/tutorial-app)
+   * [Datastore](https://cloud.google.com/nodejs/getting-started/using-cloud-datastore)
+
+### Examples
+
+ * Run Express.js on Google App Engine Flexible Environment - 
+   Good example for a simple hello-world app. - 
+   https://cloud.google.com/community/tutorials/run-expressjs-on-google-app-engine
+ * Source code the GCP with Node.js - https://github.com/GoogleCloudPlatform/nodejs-docs-samples
+   * Node.js with standard App Engine starter - https://github.com/GoogleCloudPlatform/nodejs-docs-samples/tree/master/appengine/building-an-app/build
+ * Source code for the CodeLabs - https://github.com/googlecodelabs/cloud-nodejs
+
+### Documentation
+
+ * `app.yaml` and [runtime settings](https://cloud.google.com/appengine/docs/standard/nodejs/configuring-your-app-with-app-yaml)
+ * Beta commands and datastore emulator [flags](https://cloud.google.com/sdk/gcloud/reference/beta/emulators/datastore/)
