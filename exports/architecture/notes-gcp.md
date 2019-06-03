@@ -81,3 +81,11 @@ It stores source code. It seems similar to a regular Git server repository.
 
 API management software to secure, monitor, analyze, and set quotas.
 It supports gRPC, OpenAPI and frameworks in AppEngine standard environment.
+
+*Cloud Scheduler*
+
+Frequency is configured with a unix-cron format (`* * * * *`).
+The Getting-Started example used a Pub/Sub topic to drive scheduler tasks.
+Other examples include hitting an endpoint using HTTP, such as for creating reports.
+
+It offers 3 free jobs per month, with any additional job at 0.10$ each.
