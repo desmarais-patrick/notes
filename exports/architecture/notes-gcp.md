@@ -89,3 +89,20 @@ The Getting-Started example used a Pub/Sub topic to drive scheduler tasks.
 Other examples include hitting an endpoint using HTTP, such as for creating reports.
 
 It offers 3 free jobs per month, with any additional job at 0.10$ each.
+
+*Cloud DNS*
+
+This service translates domain names to IP addresses.
+It manages public and private zones.
+
+It seems to be a solution for those providers of a SAAS product for example,
+or to handle various servers across different regions.
+
+*Google Domains*
+
+In the Google Console, under Google App Engine, custom domains redirect to 
+Google Domains.
+Domains start at CA$13-17 per year for many domains.
+
+An SSL certificate is automatically assigned and renewed for the instance.
+There is also a tab for setting our own certificates.
