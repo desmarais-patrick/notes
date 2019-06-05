@@ -10,12 +10,8 @@ See [Wiki](https://github.com/desmarais-patrick/notes/wiki/) for documentation.
 
 ## Sub-Projects
 
- - [Web application client](https://github.com/desmarais-patrick/notes-web-client-js/)
  - [API server](https://github.com/desmarais-patrick/notes-api-server-nodejs/)
- - [Database server](https://github.com/desmarais-patrick/notes-db-server-mongodb/)
- - [Gateway server](https://github.com/desmarais-patrick/notes-gateway-server-nginx/)
- - [Static files](https://github.com/desmarais-patrick/notes-static-files/)
- - [Auth server](https://github.com/desmarais-patrick/notes-auth-server/)
+ - [Web application client](https://github.com/desmarais-patrick/notes-web-client-js/)
 
 ## License
 
