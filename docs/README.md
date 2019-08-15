@@ -7,6 +7,6 @@ This directory contains the code for the Notes ABOUT site, [about.notes-app-238.
 You can preview your contributions before opening a pull request by running from within the directory:
 
 1. `bundle install`
-2. `bundle exec rake site:preview`
+2. `bundle exec jekyll serve`
 
 It's a jekyll site.
