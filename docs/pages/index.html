@@ -1,6 +1,5 @@
 ---
 layout: default
-overview: true
 permalink: /
 ---
 
