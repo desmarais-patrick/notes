@@ -1,0 +1,22 @@
+---
+version: 3.8.6
+min_ruby_version: 2.4.0
+name: Notes • Simple, note-taking Web app
+description: Write down all the notes that come to mind
+url: https://about.notes-app-238.com
+repository: https://github.com/desmarais-patrick/notes
+timezone: America/New_York
+twitter:
+  username: PatrickDesm
+logo: "/img/logo-192.png"
+
+defaults:
+- scope:
+    path: ""
+  values:
+    image: "/img/notes-og.png"
+
+exclude:
+- .gitignore
+- .gitattributes
+- .jekyll-cache
