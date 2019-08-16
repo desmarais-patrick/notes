@@ -16,6 +16,7 @@ section {
     position: relative;
     padding: 2rem;
     padding: 8%;
+    margin-bottom: 1rem;
 
     background: #333;
 }
@@ -30,6 +31,10 @@ section {
 
 .figure-on-top-aligned-right {
     display: none;
+}
+
+.caption {
+    text-align: center;
 }
 
 @media (min-width: 450px) {

@@ -17,7 +17,7 @@
 body {
     margin: 0;
     text-align: left;
-    background-color: #FAFAFA;
+    background-color: $background-color;
     -webkit-text-size-adjust: 100%; /** Prevent adjustments in iOS. **/
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** iOS tap color transparent. **/
 }

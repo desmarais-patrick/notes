@@ -1,3 +1,11 @@
 footer {
-    
+    padding-top: 1rem;
+    border-top: .05rem solid $text-color-2;
+
+    p {
+        margin-bottom: .5rem;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
 }

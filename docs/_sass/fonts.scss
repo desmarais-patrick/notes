@@ -6,11 +6,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-weight: normal;
     line-height: 1.5;
-    color: #333333;
-}
-
-.secondary-text {
-    color: #666666;
+    color: $text-color-1;
 }
 
 h1 {
@@ -26,4 +22,9 @@ h2 {
 p {
     font-size: 1rem;
     font-weight: normal;
+
+    &.secondary {
+        font-size: .8rem;
+        color: $text-color-2;
+    }
 }
