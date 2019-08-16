@@ -1,0 +1,17 @@
+a, a.primary {
+    color: $accent-color-1;
+    text-decoration: underline;
+    background-color: transparent; /* Gray background on active links in IE 10 :s */
+
+    &:hover { color: $accent-color-1-darker; }
+    &:active { color: $accent-color-1; }
+    &:visited { color: $accent-color-1-darker; }
+
+    &.secondary {
+        color: $accent-color-2;
+
+        &:hover { color: $accent-color-2-darker; }
+        &:active { color: $accent-color-2; }
+        &:visited { color: $accent-color-2-darker; }
+    }
+}

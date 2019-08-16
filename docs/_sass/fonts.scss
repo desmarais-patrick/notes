@@ -1,0 +1,30 @@
+html, body {
+    font-size: 16px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: $text-color-1;
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: normal;
+
+    &.secondary {
+        font-size: .8rem;
+        color: $text-color-2;
+    }
+}

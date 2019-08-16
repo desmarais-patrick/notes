@@ -1,0 +1,78 @@
+/************************************************************
+  RESET
+
+  Many resets were manually copied from Bootstrap's
+  reboot.scss file. Bootstrap is licensed MIT. 😁
+
+************************************************************/
+
+/* GENERAL */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+} /** `width` is not affected by `padding` or `border` **/
+
+body {
+    margin: 0;
+    text-align: left;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%; /** Prevent adjustments in iOS. **/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** iOS tap color transparent. **/
+}
+
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+} /** Remove focus outline on supported browsers. **/
+
+/* IMAGES */
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none; /* Border on images inside links in IE 10- :s */
+}
+  
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+} /* Workaround for the SVG overflow bug in IE10/11 :s */
+
+/* BUTTONS AND INPUTS */
+
+button {
+    border-radius: 0; /* Chrome default rounding :s */
+    overflow: visible; /* Edge hides it :s */
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button; /* Webkit and Safari styling defaults */
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+textarea {
+    overflow: auto; /* Default vertical scrollbar in IE. :s */
+    resize: vertical;
+}

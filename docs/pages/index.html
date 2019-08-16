@@ -1,6 +1,69 @@
 ---
 layout: default
 permalink: /
+has_back_to_project_page: false
+title: "Notes"
+subtitle: "Project Page"
 ---
 
-<div>Hello, World!</div>
+<article>
+    <section class="page-link">
+        <h2><a href="/story">Story behind this project</a></h2>
+        <p>The Notes project started in April 2019, as I was
+            on a job break. I started this project because...
+            <a class="secondary" href="/story">Read more</a></p>
+    </section>
+    <section class="image-link">
+        <div class="images">
+            <figure>
+                <a href="http://app.notes-app-238.com/">
+                    <img
+                        class="desktop_promo_img"
+                        src="/img/notes-app-version-0-1-0-desktop-promo.png"
+                        alt="Notes app displayed in desktop browser" />
+                </a>
+                <figcaption>Desktop</figcaption>
+            </figure>
+            <figure class="figure-on-top-aligned-right">
+                <a href="http://app.notes-app-238.com/">
+                    <img
+                        class="mobile_promo_img"
+                        src="/img/notes-app-version-0-1-0-mobile-promo.png"
+                        alt="Notes app displayed in mobile browser" />
+                </a>
+                <figcaption>Mobile</figcaption>
+            </figure>
+        </div>
+        <div class="caption">
+            <p class="secondary">App is deployed at<br
+                class="show-only-small-screen">
+                    <a class="secondary" href="http://app.notes-app-238.com/"
+                        >http://app.notes-app-238.com/</a></p>
+        </div>
+    </section>
+    <section class="page-link">
+        <h2><a href="https://github.com/desmarais-patrick/notes/wiki/Design"
+            >Interface Design</a></h2>
+        <p>The process behind the user experience and user interface design is 
+            detailed in the project's wiki. <a class="secondary"
+            href="https://github.com/desmarais-patrick/notes/wiki/Design"
+            >Read more</a></p>
+    </section>
+    <section class="page-link">
+        <h2><a
+            href="https://github.com/desmarais-patrick/notes/wiki/Architecture"
+            >Code Architecture</a></h2>
+        <p>The architecture for the overall system and its sub-systems is 
+            described in details in the project's wiki. <a class="secondary"
+            href="https://github.com/desmarais-patrick/notes/wiki/Architecture"
+            >Read more</a></p>
+    </section>
+    <section class="page-link">
+        <h2><a href="{{ site.repository }}"
+            target="_blank">Source Files and Documentation</a></h2>
+        <p>The design files and the source code for this project are 
+            available on Github: <a class="secondary"
+            href="{{ site.repository }}"
+            target="_blank">desmarais-patrick/notes</a>.</p>
+    </section>
+</article>

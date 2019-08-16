@@ -1,6 +1,6 @@
 # Notes ABOUT site
 
-This directory contains the code for the Notes ABOUT site, [about.notes-app-238.com](http://about.notes-app-238.com/).
+This directory contains the code for the Notes ABOUT site, [www.notes-app-238.com](http://www.notes-app-238.com/).
 
 ## Running locally
 
