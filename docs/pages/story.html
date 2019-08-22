@@ -6,5 +6,470 @@ title: "Story Behind the Notes Project"
 subtitle: "Article"
 ---
 
-The Notes project started in April 2019, as I was
-on a job break. I started this project because...
+<article class="long-text">
+    <div class="section">
+        <p>A snowstorm in April. That is the life in Montreal, sometimes. 
+            This weather was the reason my flight was delayed. 
+            I was on my way back from Chicago, where I visited my friend 
+            Guillaume. 
+            I sat in the Toronto airport lounge, with time to think. 
+            Before leaving for the city of architecture, 
+            the idea of moving on to a personal project had already formed. 
+            Except this time, I thought, I would finish this personal project, 
+            up to its release in production.</p>
+        
+        <!-- TODO Include picture of Montreal in snowstorm, shared by Ro. 
+            Caption: April snowstorm in Montreal -->
+    </div>
+
+    <div class="section smooth-break">
+        <p>I like sketching.
+            Since I completed my degree in software engineering, 
+            many app ideas have populated my sketch books. 
+            I took notes whenever I thought of an app or 
+            concept to solve a problem with technology.
+            It could be for helping me automate tracking my expenses, 
+            remind me when bills are due, 
+            or motivate me to follow healthy habits such as 
+            drinking water or training flexibility and mobility. 
+            My notebooks were full of ideas; 
+            however, my attempts to bring them to reality were not conclusive. 
+            In many cases, it required a lot of effort and the design 
+            wasn’t satisfactory. 
+            I continued to try, failing and learning. 
+            I accumulated enough experience and lessons 
+            to try one more time.</p>
+
+        <!-- TODO Include image of a man at the bottom of a mountain.
+            Caption: A new journey begins. -->
+    </div>
+
+    <div class="section">
+        <p>From Chicago to Montreal, 
+            the plan to complete a personal project became clearer. 
+            I chose the project of note-taking and categorization. 
+            A simple endeavour, I thought. 
+            Previous attempts often started with a complex solution 
+            from the start. It didn’t work. 
+            I wanted to start small in order to complete it. 
+            I also wanted to achieve objectives 
+            regarding design and programming. 
+            For example, here are two objectives for this project:</p>
+        
+        <ul class="no-bullets">
+            <li><b>Design 🖌🎨</b><br>
+                <i>Test interface sketches using a paper prototype 
+                    before starting code.</i><br>
+                <span class="secondary">Human-computer interaction was a special class for me, 
+                    where I learned a design process centred around the human. 
+                    During the course project, 
+                    we used various testing methods to confirm our hypothesis. 
+                    One of those methods was using a paper prototype, 
+                    which I really wanted to revisit and practice.</span></li>
+            <li><b>Programming 👨‍💻</b><br>
+                <i>Build a system architecture using layers and 
+                    design patterns.</i><br>
+                    <span class="secondary">Many projects I’ve worked on already 
+                    encompassed the structure when I joined the team. 
+                    Hence, I really wanted to experience 
+                    creating my own software architecture and 
+                    test it out.</span></li>
+        </ul>
+
+        <p>For each objective, 
+            a section was reserved in the project 
+            <a href="https://github.com/desmarais-patrick/notes/wiki">wiki</a>.</p>
+
+        <!-- TODO Include image of someone packing his bags, 
+                                           taking something from his bag,
+                                           zoom on someone's backpack,
+                                           someone's itinerary,
+                                           demi-god in Moana looking in front.
+            Caption: With a direction -->
+    </div>
+
+    <div class="section dark">
+        <h2>Objective I: Design</h2>
+    </div>
+
+    <div class="section">
+        <p>Practice design was my first goal to tackle.
+            My design background had grown a lot in the recent years.</p>
+        <ul>
+            <li>Human-computer interaction class with its 
+                human-centred approach</li>
+            <li>Numerous sketches of interfaces for app ideas</li>
+            <li>Details in the interaction of apps analyzed 
+                during development</li>
+            <li>Discussions with user experience and user interface designers 
+                about the rationale behind their design decisions</li>
+            <li>Talks about the various forms of design 
+                at the MTL Design Club</li>
+            <li>Online courses about design theory and practice using 
+                design tools and graphic design terminology</li>
+            <li>Short experience as user interface designer 
+                for musical experiences</li>
+        </ul>
+        <p>I learned that design gives a direction 
+            for the rest of development.
+            Good design makes use of the common sense 
+            to build around usability and simplicity. 
+            It looks for a balance between flexibility and constraint 
+            to bring its users in flow with the app. 
+            Best practices aren’t always appropriate, and 
+            the best approach often depends on careful considerations. 
+            Good design gets out of the way and becomes invisible. 
+            I realized while sitting with professionals and scientists 
+            that personal work doesn’t get easier with experience 
+            but actually reaches a new level of abstraction. 
+            This level opens new discussions to share perspectives on 
+            quality and practices, to try on new experiments.</p>
+        
+        <!-- TODO Include image of someone praying to a god or 
+                                kissing goodbye in India.
+            Caption: With experience -->
+    </div>
+
+    <div class="section">
+        <p>This note-taking app was my new experiment.
+            I divided a plan with the objective of 
+            a simple and elegant design.</p>
+        <ol>
+            <li>Identify the problem (or opportunity to improve) 
+                following observations</li>
+            <li>Sketch potential solutions</li>
+            <li>Research existing solutions</li>
+            <li>Analyze and re-define desired solution</li>
+            <li>Build paper prototype and test</li>
+            <li>Design interface and systems overview</li>
+        </ol>
+        <p>Once these steps completed, I would be ready for coding.
+            Given I was the first user for this app, 
+            I rapidly moved through the first steps, 
+            inspired from sketches from previous years.
+            The number of note-taking apps is huge, 
+            and many with impressive quality. 
+            The choice was difficult. 
+            Apps under which I looked on more closely, 
+            both on mobile and desktop, 
+            included <i>Evernote</i>, <i>Google Keep</i>, <i>Apple’s Notes</i> 
+            and <i>Todoist</i>.
+            <i>Todoist</i> was a bit different, 
+            being first-and-foremost a task-management tool, 
+            yet quite novel in its approach to recording everything actionable 
+            through its Inbox feature.
+            Once the analysis completed, I refined my solution and 
+            reached the paper prototype phase.</p>
+        <p>The paper prototype test revealed a big flaw.
+            While on paper I thought I could cleverly reuse 
+            the categorization component to filter the list of notes, 
+            but it brought confusion during the test.
+            It looked as a good choice, it was simpler than introducing 
+            a new component for filtering. 
+            However, when running the use cases with 
+            the paper prototype, I could see a source of confusion 
+            by mixing both edit and view actions of 
+            categorization and filtering in the same component. 
+            Complex questions about the intent started to pop, 
+            a new design iteration seemed necessary.</p>
+        
+        <!-- TODO Include image of Directions, on the ledge, approaching storm.
+            Caption: Incoming! -->
+
+        <p>The paper prototype proved really useful in revealing this flaw, 
+            but the idea of doing one more iteration 
+            after all the time it took to complete the first one 
+            didn’t fit with the original schedule. 
+            I had already used half of three three-week buffer 
+            to finish the first part of design. 
+            I had a hard decision to make.</p>
+    </div>
+
+    <div class="section smooth-break">
+        <p>At this point in the project, 
+            the motivation started to drop, 
+            the stress to rise. 
+            This design failure also revealed a flaw in my planning. 
+            It was no more realistic to build 
+            this simple application within the set time frame. 
+            My morale was low. 
+            Fortunately, keeping in touch with close friends, 
+            I found the support to continue, to come back stronger. 
+            From words of encouragement to quotes, 
+            from social events to positive stories, 
+            this support has been the most precious aspect of this project. 
+            Sharing what I was going through with them 
+            helped me gain back control over what I felt 
+            and find the courage to continue this project.</p>
+    </div>
+
+    <div class="section">
+        <p>I took the decision to reduce the scope, 
+            remove the feature of categorization and 
+            concentrate on note-taking only. 
+            I could still meet my objectives for design and programming. 
+            I finished the design moving on 
+            to the look-and-feel of the interface. 
+            I created a mood board, a design system and a digital mockup.</p>
+
+        <!-- TODO Include exported images for mood board, design system and 
+            digital mockup.
+            Caption: User interface design material -->
+
+        <p>The mood board grouped many visual inspirations for this project; 
+            an article by Frank Chimero (The Web’s Grain), 
+            the Learn UI design newsletters on fonts and colour contrast, 
+            and many images from my Pinterest boards 
+            with colourful quotes and scenes. 
+            The mood board set the tone for the design system 
+            and digital mockup, 
+            where I defined the style and components for the interface. 
+            Once the layout was arranged with a simple grid, 
+            I was ready to jump to the next software development step.</p>
+
+        <!-- TODO Include image someone jumping over a ledge, running, or 
+            diving deeper.
+            Caption: Journey continues -->
+    </div>
+
+    <div class="section dark">
+        <h2>Objective II: Programming</h2>
+    </div>
+
+    <div class="section">
+        <p>Practice programming, I was ready for my second objective. 
+            Writing code for an application, 
+            whether it’s server or client, or both, 
+            this is where lies most of my work experience. 
+            I had the chance to be part of awesome teams over the years. 
+            I always found motivation in bringing quality to my work and 
+            participate in discussions about technology and architecture. 
+            I started a few projects with others after work too:</p>
+
+        <ul>
+            <li>Web server deployment for e-learning experiments</li>
+            <li>Native mobile application for healthcare</li>
+            <li>Website for the Toyzilla startup</li>
+        </ul>
+    
+        <p>From internships to full-time experiences, 
+            I learned and experimented with my peers and mentors 
+            on software paradigms, code architecture and project methodologies. 
+            Finding the right amount of automated tests to make the code robust 
+            but also efficient to develop, 
+            lightening the architecture to make code adaptable 
+            for the long-term but also flexible for changes, 
+            estimating the right amount of time 
+            for building a new feature or debugging a problem. 
+            Over the years, I learned there is very seldom a general rule, 
+            as one of my mentor often replied during 
+            our weekly tech discussions: “n-oui”, 
+            which was followed by “it depends”.</p>
+    </div>
+
+    <div class="section">
+        <p>For this project, the idea was to build a Web application, 
+            with both server and client counterparts. 
+            Hence, I divided four development steps:</p>
+
+        <ol>
+            <li>Architecture design</li>
+            <li>Deployment</li>
+            <li>Server coding</li>
+            <li>Client coding</li>
+        </ol>
+
+        <p>The architecture design was one I was most excited to work on. 
+            For many work projects, the architecture design was already set 
+            when I joined. 
+            This personal project was an opportunity to test what I learned, 
+            to bring theory and observation to practice. 
+            Hence, I designed a simple, future-oriented architecture 
+            with clear separation of concerns for 
+            the central application programming interface (API), 
+            the data repository and the client interface.</p>
+
+        <!-- TODO Include diagram of system design.
+            Caption: Overall system architecture -->
+
+        <p>Following research on the deployment infrastructure, 
+            the system architecture was adapted. 
+            Development time and efforts, as well as operating costs
+            were factors considered in choosing Google Cloud 
+            as the infrastructure provider for this simple project.</p>
+
+        <!-- TODO Include image of a traveller reading in his tent under light
+            Caption: Learning throughout the journey -->
+        
+        <p>During API server implementation, 
+            I explored in more depth the topics of API design and 
+            dependency injection. 
+            I defined my API routes and worked on a documentation 
+            using the Swagger API online tool. 
+            I further defined the modules within the API server 
+            and used as few external libraries as possible. 
+            I wanted to keep code simple and elegant, 
+            to learn with practice 
+            and dive deeper into concepts of programming. 
+            This experience helped me understand 
+            various challenges solved by third-party libraries, 
+            libraries used in past projects at work.</p>
+
+        <!-- TODO Include screenshot of Swagger output and Postman results
+            Caption: API design and testing -->
+
+        <p>While the features concentrated only on note-taking, 
+            the server code foundation took more time than expected to implement. 
+            However, the benefit on learning was still considerable, 
+            as the objective to grow my skills. 
+            I decided to go forward with the approach 
+            to build a foundation for the front-end application. 
+            I even used a new approach to develop interface components. 
+            Each component of the interface were built separately, 
+            to review their style under various states, 
+            to test their logic in isolation. 
+            I brought the design system to life. 
+            This development process was quite neat to follow.</p>
+
+        <!-- TODO Include screenshot of design system
+            Caption: Design system 
+            [<a href="app.notes-app-238.com/index.designSystem.html">link</a>] -->
+    </div>
+
+    <div class="section smooth-break">
+        <p>During development, every week, 
+            I had the chance to discuss my progress with friends. 
+            This was very motivating. 
+            With developers, we discussed testing approaches, 
+            architectural decisions, 
+            and exchanged tips on estimating work and defining clear goals. 
+            With designers, I had a preview of their current personal project 
+            and creative process. 
+            With many friends, we exchanged on personal growth, 
+            as I took a step back to observe my evolution during this project. 
+            I enhanced practical skills, built more self-confidence, 
+            trained motivation and resilience to stress, 
+            learned to establish constraints for creativity, 
+            found a new equilibrium with expectations in reality. 
+            This personal project highlighted the importance of 
+            friends and family in my life, 
+            the building of a story with people I love, 
+            these people in my life.</p>
+
+        <!-- TODO Include image of travellers meeting on the road,
+                composite image of friends, friends TV show
+            Caption: Friends -->
+    </div>
+
+    <div class="section">
+        <p>It was already my last sprint. 
+            Once the design system up and running, 
+            I placed each component onto the app’s single page. 
+            I adjusted scripts for deployment 
+            to account for new files and folders. 
+            I tested the integration 
+            between the interface and the server. 
+            And voilà, version 0.1.3 was released in August.</p>
+        
+        <div class="image-link">
+            <div class="images">
+                <figure>
+                    <a href="http://app.notes-app-238.com/">
+                        <img
+                            class="desktop_promo_img"
+                            src="/img/notes-app-version-0-1-0-desktop-promo.png"
+                            alt="Notes app displayed in desktop browser" />
+                    </a>
+                    <figcaption>Desktop</figcaption>
+                </figure>
+                <figure class="figure-on-top-aligned-right">
+                    <a href="http://app.notes-app-238.com/">
+                        <img
+                            class="mobile_promo_img"
+                            src="/img/notes-app-version-0-1-0-mobile-promo.png"
+                            alt="Notes app displayed in mobile browser" />
+                    </a>
+                    <figcaption>Mobile</figcaption>
+                </figure>
+            </div>
+            <div class="caption">
+                <p class="secondary">App is deployed at<br
+                    class="show-only-small-screen">
+                        <a class="secondary" href="http://app.notes-app-238.com/"
+                            >http://app.notes-app-238.com/</a></p>
+            </div>
+        </div>
+
+        <!-- TODO Include image of traveller at the top of a summit,
+                flag of colors in Nepal
+            Caption: End of a journey -->
+    </div>
+    <div class="section smooth-break">
+        <p>This project marked my transition between two jobs. 
+            I achieved small victories throughout its realization, 
+            I checked my supporting objectives one-by-one, 
+            flying through design and programming. 
+            I tackled motivation storms with help and patience, 
+            technical difficulties with success: 
+            reaching project completion! 
+            This project changed me, 
+            and this wasn’t possible without the support of my friends. 
+            In this project, I explored with my own rhythm 
+            and took a step back to realize a small dream. 
+            Before I go back to the workplace with new skills 
+            and a new perspective to share. 
+            I’m ready to converse with new forces 
+            and share my experience with friends and family.</p>
+
+        <!-- TODO Include picture of Montreal from Mont-Royal
+            Caption: (No caption) -->
+    </div>
+    <div class="section">
+        <!--
+            *Notes of this project*
+
+            Friends:
+            Rowena, Stephanie, Reema, Preeti
+            Guillaume, Sarah, Anjni
+            Christian, Lise, Pierre
+            Kevin, William-Alexandre, Derek, Tess, Kassandre, Ruby, Gaetan, MTL Design Club team
+            Andy, Anne-Marie
+            Tariq, Sandeep, Umma
+            Eezu, Karely, Jason, Sylvia
+
+            Excerpt from David Whyte’s Pilgrimage of Work
+            It’s our responsibility to stay in conversation with the forces at work, to keep on life.
+
+            You can do this Pat, we believe in you!
+
+            To learn to stand in a new equilibrium
+
+            Making the best of our day!
+
+            Excerpt from Presentation Zen
+            To avoid any mistake stops you from being truly creative.
+
+            When people get frustrated or dissatisfied of the tool they use, they start looking elsewhere for another app. They think this new app will help them solve their note-taking or task-management problem. Maybe no tool will ever solve their problem, as the problem may be deeper into the person, not in the tool they use.
+
+            Frank Chimero article “The Web’s Grain” (2015)
+            https://frankchimero.com/writing/the-webs-grain/
+            Learn UI newsletter, online tool for text and colour contrast
+            …
+
+            Friends excited to see the result.
+
+            Process over result
+
+            Movie 3 idiots
+            Applying theory and observations into practice.
+            Sometimes, the heart is scared easily: “Aal Izz Well”
+
+            Movie Mission Mangal
+            In strong opposition, we have to give our best.
+
+            Tools…
+
+            Github links
+        -->
+    </div>
+</article>

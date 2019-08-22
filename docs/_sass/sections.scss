@@ -5,7 +5,7 @@ section {
 .page-link {
     display: block;
     width: 100%;
-    max-width: 455px;
+    max-width: 36rem;
 }
 
 .image-link {
@@ -61,5 +61,55 @@ section {
     .mobile_promo_img {
         width: 100%;
         margin-bottom: 1rem;
+    }
+}
+
+.long-text {
+    margin: -2rem;
+
+    .section {
+        padding: 4rem 2rem;
+
+        &.dark {
+            background: $text-color-1;
+            color: $background-color;
+        }
+
+        &.smooth-break {
+            background: rgba(0, 0, 0, .1);
+            color: $text-color-1;
+        }
+    }
+    h2, h3 {
+        text-align: center;
+        margin-top: 12rem;
+        margin-bottom: 12rem;
+    }
+    p, ul, ol {
+        margin: 0 auto 3rem;
+        line-height: 1.8rem;
+        max-width: 36rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+@media screen and (min-width: 500px) {
+    .long-text {
+        margin: auto;
+    }
+}
+
+p.last-section-paragraph {
+    margin-bottom: 2rem;
+}
+
+ul.no-bullets {
+    padding-left: 0;
+
+    li {
+        list-style: none;
+        margin-bottom: 2rem;
     }
 }
