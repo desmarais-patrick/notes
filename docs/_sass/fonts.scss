@@ -34,7 +34,9 @@ p, span {
     font-weight: normal;
 
     &.secondary {
-        font-size: .8rem;
         color: $text-color-2;
+    }
+    &.small {
+        font-size: .8rem;
     }
 }
