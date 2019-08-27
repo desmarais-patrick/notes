@@ -1,0 +1,15 @@
+.link-article {
+    section {
+        margin-bottom: 2rem;
+        
+        &.page-link {
+            display: block;
+            width: 100%;
+            padding: 2rem;
+        }
+
+        &.image-link {
+            padding: 2rem 0;
+        }
+    }
+}

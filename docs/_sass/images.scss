@@ -1,0 +1,102 @@
+
+// -------------------------------------------------------------------------
+// General style for images
+// -------------------------------------------------------------------------
+
+.centered-image {
+    display: block;
+    text-align: center;
+    padding: 2rem 0;
+
+    picture,
+    a {
+        display: inline-block;
+    }
+
+    img {
+        margin-bottom: 1rem;
+    }
+}
+p.caption {
+    text-align: center;
+}
+
+$mobile-img-size: 220px;
+$mobile-img-min-width: $iphone-se-portrait-width;
+
+$laptop-img-size: $laptop-body-max-width;
+$laptop-img-min-width: $ipad-portrait-width;
+
+$desktop-img-size: $desktop-body-max-width;
+$desktop-img-min-width: $imac-21-inch-width;
+
+.centered-image img {
+    width: 75%;
+}
+@media screen and (min-width: $mobile-img-min-width) {
+    .centered-image img {
+        width: $mobile-img-size;
+    }
+}
+@media screen and (min-width: $laptop-img-min-width) {
+    .centered-image img {
+        width: $laptop-img-size;
+    }
+}
+@media screen and (min-width: $desktop-img-min-width) {
+    .centered-image {
+        padding-top: 0;
+    }
+    .centered-image img {
+        width: $desktop-img-size;
+    }
+    .no-desktop-image-source img {
+        margin-top: 2rem;
+        width: $laptop-img-size;
+    }
+}
+
+// -------------------------------------------------------------------------
+// Helpers
+// -------------------------------------------------------------------------
+
+@mixin light-border {
+    border: 1px solid $light-outline-color;
+}
+@mixin light-shadow {
+    box-shadow: 0 0 60px 10px $light-outline-color;
+}
+
+// -------------------------------------------------------------------------
+// Image-specific styles
+// -------------------------------------------------------------------------
+
+.picture-story-github-wiki img {
+    @include light-border();
+}
+@media screen and (min-width: $laptop-img-min-width) {
+    .picture-story-github-wiki img {
+        border: none;
+    }
+}
+@media screen and (min-width: $desktop-img-min-width) {
+    .picture-story-github-wiki img {
+        @include light-shadow();
+    }
+}
+
+img.bordered {
+    @include light-border();
+}
+
+@media screen and (min-width: $laptop-img-min-width) {
+    .picture-story-initial-sketch img {
+        @include light-border();
+    }
+}
+
+@media screen and (min-width: $desktop-img-min-width) {
+    .picture-story-api-design-testing img {
+        @include light-border();
+    }
+}

@@ -2,8 +2,17 @@
     display: block;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: $ipad-portrait-width) {
     .show-only-small-screen {
         display: none;
+    }
+}
+
+ul.no-bullets {
+    padding-left: 0;
+
+    li {
+        list-style: none;
+        margin-bottom: 2rem;
     }
 }
