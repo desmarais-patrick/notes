@@ -1,5 +1,12 @@
 # Development Notes
 
+## Useful Deployment Tips
+
+If not using Github Pages, but a static file server such as Google Cloud Storage,
+you may execute the server locally to generate the `_site` folder which contain the generated static files.
+
+Make sure to replace the link to the story page, from `/story` to `/story.html`.
+
 ## Story
 
 Ideas to improve story page:
