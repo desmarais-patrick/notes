@@ -1,4 +1,4 @@
-// # Breakpoints
+// # References
 $iphone-se-portrait-width: 320px; // x 568px (x2)
 $iphone-6-portrait-width: 375px; // x 667px (x2)
 $iphone-x-portrait-width: 375px; // x 812px (x3)
@@ -11,3 +11,9 @@ $macbook-15-inch-width: 1440px; // x 900px (x2)
 
 $imac-21-inch-width: 1920px;
 $imac-27-inch-width: 2560px;
+
+// Variables for sizes
+
+// Mobile is full-width.
+$laptop-body-max-width: 620px;
+$desktop-body-max-width: 770px;

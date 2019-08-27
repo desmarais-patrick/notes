@@ -24,10 +24,10 @@ p.caption {
 $mobile-img-size: 220px;
 $mobile-img-min-width: $iphone-se-portrait-width;
 
-$laptop-img-size: 620px;
+$laptop-img-size: $laptop-body-max-width;
 $laptop-img-min-width: $ipad-portrait-width;
 
-$desktop-img-size: 1440px;
+$desktop-img-size: $desktop-body-max-width;
 $desktop-img-min-width: $imac-21-inch-width;
 
 .centered-image img {
@@ -71,10 +71,6 @@ $desktop-img-min-width: $imac-21-inch-width;
 // Image-specific styles
 // -------------------------------------------------------------------------
 
-.picture-notes-app-screenshots img {
-    // No special styling.
-}
-
 .picture-story-github-wiki img {
     @include light-border();
 }
@@ -89,18 +85,18 @@ $desktop-img-min-width: $imac-21-inch-width;
     }
 }
 
-.picture-story-montreal-snowstorm,
-.picture-story-bottom-mountain,
-.picture-story-with-a-direction,
-.picture-story-with-experience,
-.picture-story-incoming-storm {
-    img {
-        @include light-border();
-    }
+img.bordered {
+    @include light-border();
 }
 
 @media screen and (min-width: $laptop-img-min-width) {
     .picture-story-initial-sketch img {
+        @include light-border();
+    }
+}
+
+@media screen and (min-width: $desktop-img-min-width) {
+    .picture-story-api-design-testing img {
         @include light-border();
     }
 }

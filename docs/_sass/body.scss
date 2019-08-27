@@ -1,0 +1,11 @@
+body {
+    margin: 0 auto;
+    max-width: $laptop-body-max-width;
+}
+
+@media screen and (min-width: $imac-21-inch-width) {
+    body {
+        margin: 0 auto;
+        max-width: $desktop-body-max-width;
+    }
+}
