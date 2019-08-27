@@ -1,12 +1,22 @@
 # Notes
 
-Personal project to organize notes into groups.
+Notes is a personal project aiming to build a Web application to take notes.
 
-<img src="exports/notes-app-splash.png" title="Splash and logo" width="270"><!-- TODO Replace with GIF-animated preview of the app after release. -->
-<img src="exports/notes-app-mockup-1.png" title="Interface sketch" width="270">
-<img src="exports/notes-app-architecture.png" title="App architecture" width="270">
+<img src="exports/design/notes-app-desktop-promo.png"
+     alt="Application screenshot"
+     title="Application screenshot on desktop"
+     width="320">
+<img src="exports/design/notes-app-mobile-promo.png"
+     alt="Application screenshot"
+     title="Application screenshot on mobile"
+     width="84">
 
-See [Wiki](https://github.com/desmarais-patrick/notes/wiki/) for documentation.
+The application was first released in August 2019.
+
+See the project website for more information about this project:
+[www.notes-app-238.com](http://www.notes-app-238.com/).
+
+Documentation is also available in the Wiki.
 
 ## Sub-Projects
 
